@@ -1,0 +1,63 @@
+.echangeContainer{
+    margin-top: 70px;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    margin-top: 70px;
+    border-radius: 20px;
+background: #fcf9f9;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+             font-family: 'Malgun gothic',sans-serif;
+
+}
+.echangeContainer::-webkit-scrollbar {
+    display: none;
+  }
+.contentEchange{
+    margin-top: 10px;
+    background-color: rgb(249, 245, 240);
+    height: 150px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contentEchange .card{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.contentEchange .card img{
+    width: 100px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.contentEchange .card .name{
+    width: 100px;
+    text-align: center;
+}
+
+.buttonContainer{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.state{
+    background-color: #fbb710;
+    color: antiquewhite;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+}
